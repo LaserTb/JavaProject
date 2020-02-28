@@ -40,17 +40,18 @@
 //} 
 
 
-class Test { 
+class Ex1 { 
 	public static void main(String[] args) 
 	{ 
 		int marks = 90; 
-		String result =     marks > 60 ? "Pass with 1st div."
-						:   marks < 50 ? "Pass with 2nd div." 
-								
-//						:	marks < 40 ? "Pass with 3nd div.";
-//								Compile Time Erroe 
-//								Correction 
-		:marks < 40 ? "Pass with 3nd div.":"Fail";
+		String result =        marks > 60 ? "Pass with 1st div."
+				           :   marks < 50 ? "Pass with 2nd div." 
+
+						//						:	marks < 40 ? "Pass with 3nd div.";
+						//								Compile Time Erroe 
+						//								Correction 
+						   :    marks < 40 ? "Pass with 3nd div."
+							:"Fail";
 		System.out.println(result); 
 	} 
 } 
