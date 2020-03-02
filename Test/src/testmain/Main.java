@@ -1,3 +1,4 @@
+package testmain;
 //
 //public class Main{ 
 ////           private  int i = 1; 
@@ -28,22 +29,40 @@
 
 
 
-////Which of the following statements are correct i
-////f they replace the comment line? 
-// public class Main{ 
+//Which of the following statements are correct i
+//f they replace the comment line? 
+ public class Main{ 
 //       public int i; 
-//       public static void main(String argv[]){ 
+       public static void main(String argv[]){ 
 //          Main sc = new Main(); 
 //          // Comment line 
-//
+//          
 ////          System.out.println(i);
 //          System.out.println(sc.i);
 ////          System.out.println(Main.i);
 //          System.out.println((new Main()).i);
-//
-//          
-//       } 
-//     } 
+
+          
+//          System.out.println( 16  >>>  3); //16= 10000 to 2=10
+//          System.out.println(8<<2);// 8=1000 << to 32=100000
+    	   
+    	   
+    	   
+//    	  it will be printed out when the following code is executed 
+//    	   ******default and two*****
+    	   switch (5) { 
+    	    case 0: 
+    	       System.out.println("zero"); 
+    	       break; 
+    	    case 1: 
+    	       System.out.println("one"); 
+    	    default: 
+    	       System.out.println("default"); 
+    	    case 2: 
+    	       System.out.println("two"); 
+    	} 
+       } 
+     } 
  
 
 
