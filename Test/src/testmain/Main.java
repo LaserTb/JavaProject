@@ -60,6 +60,7 @@ package testmain;
     	       System.out.println("default"); 
     	    case 2: 
     	       System.out.println("two"); 
+    	       break;
     	} 
        } 
      } 
