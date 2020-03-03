@@ -36,7 +36,7 @@ public class DemoLocakDate {
 		LocalDate datet1 =  LocalDate.of(2010, Month.JANUARY, 10);
 		LocalTime time1 =LocalTime.of(12, 12);
 		LocalDateTime datetime= LocalDateTime.of(datet1, time1);
-		System.out.println(datetime);
+		System.out.println("datetime befor: "+datetime);
 		datetime = datetime.minusHours(2);
 		System.out.println(datetime);
 		datetime = datetime.plusMinutes(300);
@@ -45,6 +45,13 @@ public class DemoLocakDate {
 		System.out.println(datetime);
 		datetime =datetime.plusSeconds(2000000);
 		System.out.println(datetime);
+		
+		LocalDateTime datetime1= LocalDateTime.of(datet1, time1)
+				.minusDays(2).minusHours(10).minusSeconds(30);
+		System.out.println("datetime after: "+datetime1);
+		
+		
+		
 		
 	}
 
