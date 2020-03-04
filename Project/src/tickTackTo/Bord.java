@@ -1,10 +1,15 @@
 package tickTackTo;
 
 public class Bord {
+	private static final String[][] Bord = null;
+
+
 	public Bord(){
-		this(-1,-1);
+		
+		
 		
 	}
+	
 	
 	// Kon
 	public Bord(int x, int y){
@@ -17,11 +22,6 @@ public class Bord {
 	}
 	
 	
-	public void printBord(){
-		System.out.println("---------------");
-		
-		
-		System.out.println("---------------");
-	}
+	
 
 }
