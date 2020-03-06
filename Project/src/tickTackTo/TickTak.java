@@ -26,7 +26,7 @@ public class TickTak {
 		boolean playing = true ;
 		printBord();
 		System.out.println("schreib ein Hor Ver ");
-		while(playing){
+		while(true){
 			Ver = scan.nextInt();
 			Hor = scan.nextInt() ;
 
