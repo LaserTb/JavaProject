@@ -86,3 +86,35 @@ public class Q183 {
 //}
 //You could also add a no-argument constructor to class A and leave class B as is.
 //
+
+
+//
+//Question 186
+//
+//Which statements concerning the following code are true?
+//class A{
+//  public A() {} // A1
+//  public A(String s) {  this();  System.out.println("A :"+s);  }  // A2
+//}
+//
+//class B extends A{
+//  public int B(String s) {  System.out.println("B :"+s);  return 0; } // B1
+//}
+//class C extends B{
+//    private C(){ super(); } // C1
+//    public C(String s){  this();  System.out.println("C :"+s);  } // C2
+//    public C(int i){} // C3
+//}
+//
+//Please select 4 options.
+//
+//At least one of the constructors of each class is called 
+//as a result of constructing an object of class C.            ja 
+//
+//Constructor at  //A2 will never be called in creation of an object of class C.   ja 
+//
+//Class C can be instantiated only in two ways by users of class C.       ja 
+//
+////B1 will never be called in creation of objects of class A, B, or C.     ja 
+//
+//The code will not compile.       nein 
